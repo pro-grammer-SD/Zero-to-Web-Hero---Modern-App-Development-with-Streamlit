@@ -20,9 +20,19 @@ This repository is designed to help developers, data enthusiasts, and beginners 
 - **Deployment tips** for sharing your apps online
 - ...and much more!
 
+### 🌟 To Be Added S00N:
+
+- **Authentication**
+- **Configuration**
+- **App Testing**
+
 ### ⚠️ Note
 
-The commands and instructions in this guide are based on **Windows Terminal**. Users on **macOS** or **Linux** may need to adjust commands accordingly.
+- The commands and instructions in this guide are based on **Windows Terminal**. Users on **macOS** or **Linux** may need to adjust commands accordingly.
+
+- And also, the cells will not run and throw errors such as:
+  `Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.`
+  According to my research on this error, this occurs when you do not run a Streamlit Python code using `streamlit run your_app.py` in the terminal. Bare mode means when you are directly running the script rather than using the Normal mode where you run it using Streamlit's CLI utility. So, if you have to use any certain code of a cell, kindly create a new file and use `streamlit run` to open a development server and run your code.
 
 ### 🤝 Contribute
 
